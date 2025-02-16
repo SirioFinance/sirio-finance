@@ -1,0 +1,26 @@
+{
+    "updateFrequencySeconds": 360,
+    "rpcUrl": "https://mainnet.hashio.io/api",
+    "twapOracleAddress": "0x002ab00a9B29DCC68b1bEa43E4dca33B8aaE6Ad2",
+    "saucerPairs": [
+        { "HBAR/SAUCE": "0x4a46705176fac8fd5c8061f94a2c44416e7b20e6" },
+        { "HBAR/HBARX": "0xb6d4c5a61a0c104b6c9222630fac403178725f7f" },
+        { "HBAR/HST": "0xd0c81b035f5a79e52a49585107ed632ac9629825" },
+        { "HBAR/HSUITE": "0x7ad8d0104dc5f520e22c3345f9d48d1223fcab59" },
+        { "HBAR/XSAUCE": "0xc5767b107579abc10304ca1913b45ee7ac03fe7f" },
+        { "HBAR/USDC": "0xdb34c1ef944883f0e5a2fc18b6c1978b088bd31d" },
+        { "HBAR/PACK": "0x6ff2c4cf5c9d8d09bcd8cd15c7d9a1e1218175fd" }
+    ],
+    "tokenAddress": [
+        { "HBAR": "0x0000000000000000000000000000000000163b5a" },
+        { "USDC": "0x000000000000000000000000000000000006f89a" },
+        { "SAUCE": "0x00000000000000000000000000000000000b2ad5" },
+        { "XSAUCE": "0x00000000000000000000000000000000001647e8" },
+        { "HST": "0x00000000000000000000000000000000000ec585" },
+        { "HBARX": "0x00000000000000000000000000000000000cba44" },
+        { "HSUITE": "0x00000000000000000000000000000000000c01f3" },
+        { "PACK": "0x0000000000000000000000000000000000492a28" }
+    ],
+    "chainType": "evm",
+    "gasLimit": 15000000
+}

@@ -1,0 +1,14 @@
+{
+  "pullUpdateFrequencySeconds": 10,
+  "supraUrl": "https://rpc-testnet-dora-2.supra.com",
+  "rpcUrl": "https://testnet.hashio.io/api",
+  "callerWalletAddress": "0x5b3141560e335f813047CFCB5D209fc8312B80c5",
+  "supraPullContractAddress": "0x6bf7b21145Cbd7BB0b9916E6eB24EDA8A675D7C0",
+  "supraPushContractAddress": "0x6Cd59830AAD978446e6cc7f6cc173aF7656Fb917",
+  "pairIndexes": [432],
+  "pairSymbols": [
+    "USDC_USD, SAUCE_wHBAR, xSAUCE_wHBAR, HBARX_wHBAR, HBAR_USD, HBAR_USDT"
+  ],
+  "chainType": "evm",
+  "gasLimit": 15000000
+}
