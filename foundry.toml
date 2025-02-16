@@ -1,0 +1,23 @@
+[profile.default]
+src = "contracts"
+out = "out"
+libs = ["node_modules", "lib"]
+test = "test/foundry"
+solc_version = "0.8.25"
+evm_version = "shanghai"
+optimizer_runs = 800
+via_ir = true
+ffi = true
+ast = true
+build_info = true
+extra_output = ["storageLayout"]
+incremental = true
+
+auto_detect_solc = true
+[rpc_endpoints]
+h_testnet = "https://testnet.hashio.io/api"
+h_mainnet = "https://mainnet.hashio.io/api"
+
+[fuzz]
+runs = 50_000
+seed = '0x42'

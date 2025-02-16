@@ -1,0 +1,16 @@
+node_modules
+artifacts
+cache
+package-lock.json
+coverage
+coverage.json
+typechain-types
+dist
+out
+.env
+.vscode
+.DS_Store
+.openzeppelin
+broadcast
+lcov.info
+coverage_html/

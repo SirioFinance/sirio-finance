@@ -1,0 +1,53 @@
+{
+  "name": "sirio-defi-protocol",
+  "version": "1.0.0",
+  "description": "Lending and Borrowing Protocol built on Hedera Hashgraph by SirioFinance",
+  "scripts": {
+    "build": "tsc",
+    "deployTestnetTokensMock": "npx hardhat run dist/script/deployTokensMock.js",
+    "deployTestnetTokens": "npx hardhat run dist/script/deployTokensTestnet.js",
+    "deployMainnetTokens": "npx hardhat run dist/script/deployTokensMainnet.js --network mainnet",
+    "parameterAdjustment": "ts-node script/parameterAdjustment.ts",
+    "supraScript": "ts-node script/supra/supra.ts",
+    "approve": "ts-node script/ownerApprove.ts",
+    "updateTwapOracle": "ts-node script/twapOracle/twapOracle.ts"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SirioFinance/SirioFi-Protocol.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirioFinance/SirioFi-Protocol/issues"
+  },
+  "homepage": "http://www.sirio.finance/",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "@openzeppelin/hardhat-upgrades": "^3.1.0",
+    "@openzeppelin/upgrades": "^2.8.0",
+    "@openzeppelin/upgrades-core": "^1.34.1",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.0",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "axios": "^1.7.5",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.9.0",
+    "hardhat": "^2.19.1",
+    "solidity-coverage": "^0.8.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "web3": "^4.12.1"
+  },
+  "dependencies": {}
+}
